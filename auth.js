@@ -1,6 +1,6 @@
 // Configuration - Replace with your actual values
 const config = {
-    clientId: "8b4ba9dd-3ea5-4e5f-86f1-ddba2230dcf2", // Replace with your Azure AD app client ID
+    clientId: "48001125-599a-489d-8ead-ce1802cc93f8", // Replace with your Azure AD app client ID
     redirectUri: window.location.origin, // Automatically uses current origin
     scope: "openid profile email offline_access", // offline_access is required for refresh token
     authority: "https://login.microsoftonline.com/common", // Use 'common' for multi-tenant
